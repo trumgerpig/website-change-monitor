@@ -11,12 +11,12 @@ const PORT = process.env.PORT || 3000;
 
 
 //Main configuration variables
-const urlToCheck = `http://urlyouwant.com/tocheck`;
-const elementsToSearchFor = ['Text you want to watch for', 'imageYouWantToCheckItsExistence.png'];
+const urlToCheck = `https://www.hermes.com/ca/en/category/women/bags-and-small-leather-goods/bags-and-clutches/#|`;
+const elementsToSearchFor = ['picotin', 'imageYouWantToCheckItsExistence.png'];
 const checkingFrequency = 5 * 60000; //first number represent the checkingFrequency in minutes
 
 //Slack Integration
-const SLACK_WEBHOOK_URL = 'https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXXXXXX';
+const SLACK_WEBHOOK_URL = 'https://hooks.slack.com/services/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';
 const slack = require('slack-notify')(SLACK_WEBHOOK_URL);
 
 //SendGrid Email Integration
