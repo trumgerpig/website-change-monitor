@@ -12,7 +12,7 @@ const PORT = process.env.PORT || 3000;
 
 //Main configuration variables
 const urlToCheck = `https://www.hermes.com/ca/en/category/women/bags-and-small-leather-goods/bags-and-clutches/#|`;
-const elementsToSearchFor = ['picotin', 'imageYouWantToCheckItsExistence.png'];
+const elementsToSearchFor = ['picotin', 'lindy'];
 const checkingFrequency = 5 * 60000; //first number represent the checkingFrequency in minutes
 
 //Slack Integration
